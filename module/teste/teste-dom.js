@@ -12,7 +12,7 @@ var testeDom = (function () {
 
 	function _aplicarValorDeInputNoDom() {
 		var valor = $("#input").val();
-		var valorAlterado = gateway.testeController.adicionarFrase(valor)
+		var valorAlterado = testeController.adicionarFrase(valor)
 		$("#texto").append(valorAlterado);
 	}
 
