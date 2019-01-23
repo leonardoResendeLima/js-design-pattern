@@ -1,17 +1,10 @@
 var testeController = (function () {
 
-	var htmlzar = function (valor) {
-		return "<div style='margin:2px;color:blue'>" + valor + "</div>";
+	var adicionarFrase = function (valor) {
+		return "Você digitou o valor : " + valor + "! <br>";
 	};
 
 	return {
-		htmlzar: htmlzar
+		adicionarFrase: adicionarFrase
 	}
 }());
-
-
-// function Circle() { }
-
-// Circle.prototype.color = function (valor) {
-// 	return "<div style='margin:2px;color:blue'>" + valor + "</div>";
-// }

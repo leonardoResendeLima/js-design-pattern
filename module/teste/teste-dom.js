@@ -1,12 +1,22 @@
 var testeDom = (function () {
 
-	var aplicarValorDeInputNoDom = function () {
+	(function init() {
+		$("#botao").on('click', function () {
+			_aplicarValorDeInputNoDom();
+		})
+	})();
+
+	function metodoPublico() {
+		return ""
+	}
+
+	function _aplicarValorDeInputNoDom() {
 		var valor = $("#input").val();
-		var valorAlterado = gateway.teste.controller.htmlzar(valor)
+		var valorAlterado = gateway.testeController.adicionarFrase(valor)
 		$("#texto").append(valorAlterado);
 	}
 
 	return {
-		aplicarValorDeInputNoDom: aplicarValorDeInputNoDom
+		metodoPublico: metodoPublico
 	}
 }());
