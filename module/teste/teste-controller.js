@@ -10,8 +10,8 @@ var testeController = (function () {
 }());
 
 
-function Circle() { }
+// function Circle() { }
 
-Circle.prototype.color = function (valor) {
-	return "<div style='margin:2px;color:blue'>" + valor + "</div>";
-}
+// Circle.prototype.color = function (valor) {
+// 	return "<div style='margin:2px;color:blue'>" + valor + "</div>";
+// }

@@ -5,7 +5,13 @@ var gateway = (function () {
 			inserirAnalytics: analyticsController.inserirAnalytics,
 		},
 		teste: {
-			htmlzar: testeController.htmlzar
+			dom: {
+				aplicarValorDeInputNoDom: testeDom.aplicarValorDeInputNoDom
+			},
+			controller: {
+				htmlzar: testeController.htmlzar
+			},
+
 		}
 	}
 })();
